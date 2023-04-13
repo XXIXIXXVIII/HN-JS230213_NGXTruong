@@ -66,7 +66,7 @@ function Page() {
           return (
             <div key={item.id} className="bg-white">
               <img
-                className="mb-5 max-h-[325px] object-cover  "
+                className="mb-5 h-[325px] w-[325px] object-cover mx-auto p-2  "
                 src={item.image}
                 alt="product"
               />
